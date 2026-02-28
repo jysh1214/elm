@@ -32,7 +32,7 @@ When this skill is invoked, follow these steps precisely:
 ### Step 2: Create Transcript File
 
 - Derive the note name from the notes file path: take the filename without extension, in kebab-case (e.g., `path/to/My Notes.md` → `my-notes`)
-- Generate a timestamp: `YYYY-MM-DDTHH-MM-SS`
+- Generate a timestamp: `YYYY-MM-DD-HH-MM-SS`
 - Create the transcript file at `.elm/interview/{note-name}-{timestamp}.md`
 - Ensure the `.elm/interview/` directory exists (create it if needed using Bash `mkdir -p`)
 
